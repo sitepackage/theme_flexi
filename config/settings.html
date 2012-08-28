@@ -1,0 +1,406 @@
+<fieldset>
+  <legend>รูปแบบธีม</legend>
+  <table>
+    <tr>
+      <th><label for="style_name">โทนสี</label></th>
+      <td>
+        <select name="style_name" id="style_name">
+          <option value="style1">สีชมพู เหลือง</option>
+          <option value="style2">สีฟ้า เหลือง</option>
+          <option value="style3">สีม่วง เหลือง</option>
+          <option value="style4">สีเขียว เหลือง</option>
+          <option value="style5">สีฟ้า</option>
+          <option value="style6">สีชมพู</option>
+          <option value="style7">สีส้ม</option>
+          <option value="style8">สีเขียว</option>
+          <option value="style9">สีม่วง</option>
+          <option value="style10">สีน้ำเงิน</option>
+          <option value="style11">สีน้ำตาล</option>
+          <option value="style12">สีดำ</option>
+          <option value="style13">สีเทา บานเย็น</option>
+          <option value="style14">สีเทา ฟ้า</option>
+          <option value="style15">สีเทา ส้ม</option>
+          <option value="style16">สนามหญ้า</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="body_bg_uri">ภาพพื้นหลัง URI</label></th>
+      <td>
+        <input class="image_uri" type="text" id="body_bg_uri" name="body_bg_uri" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="body_bg_repeat">การวนซ้ำภาพพื้นหลัง</label></th>
+      <td>
+        <select name="body_bg_repeat" id="body_bg_repeat">
+          <option value="">ค่าเดิมระบบ</option>
+          <option value="no-repeat">ไม่วนซ้ำ</option>             
+          <option value="no-repeat fixed">ไม่วนซ้ำ อยู่กับที่</option>
+          <option value="repeat fixed">วนซ้ำ อยู่กับที่</option>   
+          <option value="repeat">วนซ้ำ</option>
+          <option value="repeat-x">วนซ้ำ แนวนอน</option>
+          <option value="repeat-y">วนซ้ำ แนวตั้ง</option>        
+        </select>
+      </td>
+    </tr> 
+    <tr>
+      <th><label for="pattern_name">ลายกราฟฟิก</label></th>
+      <td>
+        <select name="pattern_name" id="pattern_name">
+          <option value="pattern0">--ไม่ได้เลือก--</option>
+          <option value="pattern1">ลายหัวใจ</option>
+          <option value="pattern2">ลายดาว</option>
+          <option value="pattern3">ลายพระจันทร์</option>
+          <option value="pattern4">ลายมงกุฎ</option>
+          <option value="pattern5">ลายสัญลักษณ์เพศหญิง</option>
+          <option value="pattern6">ลายผีเสื้อ</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="background_pattern_uri">ภาพลายกราฟฟิก URI</label></th>
+      <td>
+        <input class="image_uri" type="text" id="background_pattern_uri" name="background_pattern_uri" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="header_name">พื้นหลัง ด้านบน</label></th>
+      <td>
+        <select name="header_name" id="header_name">
+          <option value="header1">กล่องของขวัญ 1</option>
+          <option value="header2">การ์ตูน 1</option>
+          <option value="header3">ห้อง 1</option>
+          <option value="header4">ห้อง 2</option>
+          <option value="header5">ตุ๊กตาหมี 1</option>
+          <option value="header6">การ์ตูน 2</option>
+          <option value="header7">ห้อง 3</option>
+          <option value="header8">ห้อง 4</option>
+          <option value="header9">การ์ตูน 3</option>
+          <option value="header10">ตุ๊กตาหมี 2</option>
+          <option value="header11">ตึก 1</option>
+          <option value="header12">กล่องของขวัญ 2</option>
+          <option value="header13">หัวใจ 1</option>
+          <option value="header14">การ์ตูน 4</option>
+          <option value="header15">สมุด 1</option>
+          <option value="header16">ไล่สีเทา</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="background_header_uri">ภาพพื้นหลัง ด้านบน URI</label></th>
+      <td>
+        <input class="image_uri" type="text" id="background_header_uri" name="background_header_uri" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="footer_name">พื้นหลัง ด้านล่าง</label></th>
+      <td>
+        <select name="footer_name" id="footer_name">
+          <option value="footer1">ดอกไม้ 1</option>
+          <option value="footer2">ตึก 1</option>
+          <option value="footer3">หัวใจ 1</option>
+          <option value="footer4">ต้นไม้ 1</option>
+          <option value="footer5">นก 1</option>
+          <option value="footer6">ดอกไม้ 2</option>
+          <option value="footer7">ไล่สีเทา</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="background_footer_uri">ภาพพื้นหลัง ด้านล่าง URI</label></th>
+      <td>
+        <input class="image_uri" type="text" id="background_footer_uri" name="background_footer_uri" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="icon_name">รูปแบบไอคอน</label></th>
+      <td>
+        <select name="icon_name" id="icon_name">
+          <option value="icon1">การ์ตูน 1</option>
+          <option value="icon2">การ์ตูน 2</option>
+          <option value="icon3">สัตว์ 1</option>
+          <option value="icon4">สัตว์ 2</option>
+          <option value="icon5">ดอกไม้ 1</option>
+          <option value="icon6">ดอกไม้ 2</option>
+          <option value="icon7">มาตรฐาน 1</option>
+          <option value="icon8">มาตรฐาน 2</option>
+          <option value="icon9">เครื่องสำอาง 1</option>
+          <option value="icon10">เครื่องสำอาง 2</option>
+          <option value="icon11">หัวใจ 1</option>
+          <option value="icon12">หัวใจ 2</option>
+          <option value="icon13">ของเล่น 1</option>
+          <option value="icon14">ของเล่น 2</option>
+          <option value="icon15">กล่องของขวัญ 1</option>
+          <option value="icon16">กล่องของขวัญ 2</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="banner_name">รูปแบบแบนเนอร์</label></th>
+      <td>
+        <select name="banner_name" id="banner_name">
+          <option value="banner1">แบนเนอร์ 1</option>
+          <option value="banner2">แบนเนอร์ 2</option>
+          <option value="banner3">แบนเนอร์ 3</option>
+          <option value="banner4">แบนเนอร์ 4</option>
+        </select>
+      </td>
+    </tr>
+  </table>
+</fieldset>
+<fieldset>
+  <legend>หน้าแรก</legend>
+  <table>
+    <tr>
+      <th><label for="welcome_message">เลือกหน้าสำหรับข้อความต้อนรับ</label></th>
+      <td>
+        <select class="page" name="welcome_message" id="welcome_message" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="frontpage_collection">คอลเลคชันสินค้า</label></th>
+      <td>
+        <select class="collection" name="frontpage_collection" id="frontpage_collection" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="frontpage_product_limit">จำนวนสินค้า</label></th>
+      <td>
+        <select name="frontpage_product_limit" id="frontpage_product_limit">
+          <option value="4">4</option>
+          <option value="8">8</option>          
+          <option value="16">16</option>
+          <option value="24">24</option>
+          <option value="32">32</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="frontpage_discussion">เลือกเว็บบอร์ด</th>
+      <td>
+        <select class="discussion" name="frontpage_discussion" id="frontpage_discussion" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="frontpage_discussion_limit">จำนวนการสนทนา</th>
+      <td>
+        <select name="frontpage_discussion_limit" id="frontpage_discussion_limit">
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="20">20</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="frontpage_blog">เลือกบล็อก</th>
+      <td>
+        <select class="blog" name="frontpage_blog" id="frontpage_blog" />
+      </td>
+    </tr>
+  </table>
+</fieldset>
+<fieldset>
+  <legend>รูปภาพ</legend>
+  <table>
+    <tr>
+      <th><label for="logo_image_uri">โลโก้ URI (250x120 px.)</label></th>
+      <td>
+        <input class="image_uri" type="text" id="logo_image_uri" name="logo_image_uri" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="favicon_image_uri">Favicon URI (.png, .ico)</label></th>
+      <td>
+        <input class="image_uri" type="text" id="favicon_image_uri" name="favicon_image_uri" />
+      </td>
+    </tr>
+  </table>
+</fieldset>
+<fieldset>
+  <legend>Widgets</legend>
+  <table>
+    <tr>
+      <th><label for="form_login">ฟอร์มล็อกอิน</label></th>
+      <td>
+        <select name="form_login" id="form_login">
+          <option value="">เปิดใช้งาน</option>
+          <option value="1">ปิดใช้งาน</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="ecommerce_enabled">ระบบสั่งซื้อสินค้าออนไลน์</label></th>
+      <td>
+        <select name="ecommerce_enabled" id="ecommerce_enabled">
+          <option value="">เปิดใช้งาน</option>
+          <option value="1">ปิดใช้งาน</option>
+        </select>
+      </td>
+    </tr>    
+  <tr>
+      <th><label for="linklist_highlight">ลิงค์ลิสต์ ภาพไฮไลท์</label></th>
+      <td>
+        <select class="linklist" name="linklist_highlight" id="linklist_highlight" />
+      </td>
+    </tr>        
+   <tr>
+      <th><label for="linklist_nav">ลิงค์ลิสต์ ด้านบน</label></th>
+      <td>
+        <select class="linklist" name="linklist_nav" id="linklist_nav" />
+      </td>
+    </tr>    
+    <tr>
+      <th><label for="linklist_sidebar1">ลิงค์ลิสต์ ด้านข้าง1</label></th>
+      <td>
+        <select class="linklist" name="linklist_sidebar1" id="linklist_sidebar1" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="linklist_sidebar2">ลิงค์ลิสต์ ด้านข้าง2</label></th>
+      <td>
+        <select class="linklist" name="linklist_sidebar2" id="linklist_sidebar2" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="linklist_sidebar3">ลิงค์ลิสต์ ด้านข้าง3</label></th>
+      <td>
+        <select class="linklist" name="linklist_sidebar3" id="linklist_sidebar3" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="collection_enabled">คอลเลคชันสินค้า ด้านข้าง</label></th>
+      <td>
+        <select name="collection_enabled" id="collection_enabled">
+          <option value="">เปิดใช้งาน</option>
+          <option value="1">ปิดใช้งาน</option>
+        </select>
+      </td>
+    </tr>    
+    <tr>
+      <th><label for="brand_style">ฟิลเตอร์แบรนด์สินค้า ด้านข้าง</label></th>
+      <td>
+        <select name="brand_style" id="brand_style">
+          <option value="0">ปิดใช้งาน</option>
+          <option value="1">drop-down list</option>
+          <option value="2">text link</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="type_style">ฟิลเตอร์ประเภทสินค้า ด้านข้าง</label></th>
+      <td>
+        <select name="type_style" id="type_style">
+          <option value="0">ปิดใช้งาน</option>
+          <option value="1">drop-down list</option>
+          <option value="2">text link</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="subcategory">ฟิลเตอร์สินค้า ตรงกลาง</label></th>
+      <td>
+        <select name="subcategory" id="subcategory">
+          <option value="">ปิดใช้งาน</option>          
+          <option value="1">Tag</option>
+          <option value="2">Type</option>
+          <option value="3">Brand</option>
+        </select>
+      </td>
+    </tr> 
+    <tr>
+      <th><label for="how_to_buy_uri">URI หน้าวิธีสั่งซื้อ</label></th>
+      <td>
+        <input class="uri" type="text" id="how_to_buy_uri" name="how_to_buy_uri" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="notify_payment_uri">URI หน้าแจ้งชำระเงิน</label></th>
+      <td>
+        <input class="uri" type="text" id="notify_payment_uri" name="notify_payment_uri" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="contact_uri">URI หน้าติดต่อร้าน</label></th>
+      <td>
+        <input class="uri" type="text" id="contact_uri" name="contact_uri" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="stats_enabled">สถิติและสถานะร้านค้า</label></th>
+      <td>
+        <select name="stats_enabled" id="stats_enabled">
+          <option value="">ปิดใช้งาน</option>
+          <option value="1">เปิดใช้งาน</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="product_images_enabled">แสดงรูปภาพ extra ในหน้ารายละเอียดสินค้า</label></th>
+      <td>
+        <select name="product_images_enabled" id="product_images_enabled">
+          <option value="">ปิดใช้งาน</option>
+          <option value="1">เปิดใช้งาน</option>
+        </select>
+      </td>
+    </tr>     
+  </table>
+</fieldset>
+<fieldset>
+  <legend>สังคมออนไลน์</legend>
+  <table>
+    <tr>
+      <th><label for="social_enabled">Social Share</label></th>
+      <td>
+        <select name="social_enabled" id="social_enabled">
+          <option value="">ปิดใช้งาน</option>
+          <option value="1">เปิดใช้งาน</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="facebook_uri">Facebook URI</label></th>
+      <td>
+        <input class="uri" type="text" id="facebook_uri" name="facebook_uri" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="like_box_enabled">Facebook Like Box</label></th>
+      <td>
+        <select name="like_box_enabled" id="like_box_enabled">
+          <option value="">ปิดใช้งาน</option>
+          <option value="1">เปิดใช้งาน</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="like_box_height">ความยาว Facebook Like Box</label></th>
+      <td>
+        <input class="text" type="text" id="like_box_height" name="like_box_height" value="556" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="like_box_enabled">ออพชัน Facebook Like Box</label></th>
+      <td>
+        <input type="checkbox" name="like_box_show_faces" id="like_box_show_faces" value="1" />
+        <label for="like_box_show_faces">Show Faces</label>
+        <input type="checkbox" name="like_box_show_stream" id="like_box_show_stream" value="1" />
+        <label for="like_box_show_stream">Show Stream</label>
+        <input type="checkbox" name="like_box_show_header" id="like_box_show_header" value="1" />
+        <label for="like_box_show_header">Show Header</label>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="twitter_uri">Twitter URI</label></th>
+      <td>
+        <input class="uri" type="text" id="twitter_uri" name="twitter_uri" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="youtube_uri">Youtube URI</label></th>
+      <td>
+        <input class="uri" type="text" id="youtube_uri" name="youtube_uri" />
+      </td>
+    </tr>
+  </table>
+</fieldset>

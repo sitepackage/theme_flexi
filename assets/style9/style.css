@@ -1,0 +1,41 @@
+.widgets {
+  background: url('widgets.png') no-repeat;
+}
+.buttons {
+  background: url('buttons.png') no-repeat;
+}
+.bullet {
+  background: url('bullets.png') no-repeat;
+}
+body{
+	background:url("body_bg.jpg") repeat-x  #8660a9 fixed;
+}
+a ,
+#header .site_name ,
+#sidebar1 h2 ,
+#footer .nav a ,
+#cart .summary .total_price ,
+#pagination a:hover ,
+#collection .title a:hover ,
+#collection .price ,
+#frontpage .heading span {
+	color: #8761aa;
+}
+#header .nav a:hover ,
+#sidebar1 .sidebar li a:hover ,
+#collection .buy a ,
+#sidebar1 .account fieldset .button {
+	background-color:#8761aa;
+	color:#fff;
+}
+#pagination a:hover {
+  border: 1px solid #8761aa;
+}
+#highlight li span {
+	border:3px solid #8761aa;
+}
+#sidebar1 h2 ,
+#sidebar1 .stats ,
+#sidebar1 .account {
+	background-color:#f9eefa;
+}
