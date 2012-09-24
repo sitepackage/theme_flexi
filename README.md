@@ -1,2 +1,7 @@
-theme_flexi
+Flexi Theme
 ===========
+
+Changes
+-------------
+2012-09-24
+-	banner sidebar ตัด hover แล้วเปลี่ยนสีชมพูออก
