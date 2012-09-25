@@ -22,7 +22,7 @@ a ,
 	color: #5f9aff;
 }
 #header .nav a:hover ,
-#sidebar1 .sidebar li a:hover ,
+#sidebar1 .nav-left li a:hover ,
 #collection .buy a ,
 #sidebar1 .account fieldset .button {
 	background-color:#5f9aff;
